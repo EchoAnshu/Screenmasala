@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - ScreenMasala</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <a href="index.html" class="logo">
+        <img src="assets/images/logo.png" alt="ScreenMasala">
+    </a>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="movies.html">Movies</a>
+        <a href="tvshows.html">TV Shows</a>
+        <a href="search.html">Search</a>
+    </nav>
+
+    <div class="nav-icons">
+        <a href="watchlist.html">♡</a>
+        <a href="profile.html" class="active" title="Profile" aria-label="Profile">👤</a>
+        <a href="login.html" class="login-button" id="loginButton">Login</a>
+    </div>
+
+</header>
+
+
+<main class="profile-page" id="profilePage">
+
+    <section class="profile-header">
+
+        <div class="profile-avatar" id="profileAvatar" role="img"
+             aria-label="Profile avatar"></div>
+
+        <div class="profile-info">
+            <p>MY ACCOUNT</p>
+            <h1 id="profileName">...</h1>
+            <span>Welcome back to ScreenMasala.</span>
+        </div>
+
+    </section>
+
+
+    <section class="profile-content">
+
+        <div class="profile-card">
+
+            <h2>Account Information</h2>
+
+            <div class="profile-detail">
+                <span>Name</span>
+                <strong id="profileInfoName">...</strong>
+            </div>
+
+            <div class="profile-detail">
+                <span>Email</span>
+                <strong id="profileEmail">...</strong>
+            </div>
+
+            <div class="profile-detail">
+                <span>Member Since</span>
+                <strong id="profileSince">...</strong>
+            </div>
+
+        </div>
+
+
+        <div class="profile-card">
+
+            <h2>My Activity</h2>
+
+            <div class="activity-grid">
+
+                <div class="activity-box">
+                    <strong id="profileWatchlistCount">...</strong>
+                    <span>Watchlist</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="profile-card">
+
+            <h2>Account Actions</h2>
+
+            <div class="profile-actions">
+                <button class="logout-btn" id="logoutButton">Logout</button>
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer class="footer">
+
+    <h2>SCREENMASALA</h2>
+
+    <p>Movies, shows and stories worth watching.</p>
+
+    <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="movies.html">Movies</a>
+        <a href="tvshows.html">TV Shows</a>
+        <a href="search.html">Search</a>
+    </div>
+
+    <p class="copyright">
+        © 2026 ScreenMasala. All rights reserved.
+    </p>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
