@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details - ScreenMasala</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+
+    <a href="index.html" class="logo">
+        <img src="assets/images/logo.png" alt="ScreenMasala">
+    </a>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="movies.html">Movies</a>
+        <a href="tvshows.html">TV Shows</a>
+        <a href="search.html">Search</a>
+        <a href="watchlist.html">♡</a>
+        <a href="profile.html" title="Profile" aria-label="Profile">👤</a>
+        <a href="login.html" class="login-button" id="loginButton">Login</a>
+    </nav>
+
+</header>
+
+<main>
+
+    <section class="details-hero" id="detailsHero">
+
+        <div class="details-overlay">
+
+            <div class="details-content">
+
+                <img
+                    id="detailsPoster"
+                    class="details-poster"
+                    src="assets/images/logo.png"
+                    alt="Movie Poster"
+                    onerror="this.onerror=null;this.src='assets/images/logo.png'"
+                >
+
+                <div class="details-text">
+
+                    <p id="detailsType" class="details-type">MOVIE</p>
+
+                    <h1 id="detailsTitle">Loading...</h1>
+
+                    <p id="detailsMeta"></p>
+
+                    <p id="detailsGenres"></p>
+
+                    <p id="detailsDescription">
+                        Loading movie details...
+                    </p>
+
+                    <button id="watchlistButton" class="watchlist-button">
+                        ♡ Add to Watchlist
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="about-section">
+
+        <h2>About</h2>
+
+        <div class="about-grid">
+
+            <div>
+                <span>Rating</span>
+                <strong id="aboutRating">N/A</strong>
+            </div>
+
+            <div>
+                <span>Release Date</span>
+                <strong id="aboutDate">N/A</strong>
+            </div>
+
+            <div>
+                <span>Language</span>
+                <strong id="aboutLanguage">N/A</strong>
+            </div>
+
+            <div>
+                <span>Type</span>
+                <strong id="aboutType">N/A</strong>
+            </div>
+
+        </div>
+
+    </section>
+
+<section class="similar-section">
+    <h2>Similar Movies & Shows</h2>
+    <div id="similarMoviesRow" class="movie-row"></div>
+</section>
+</main>
+
+<footer class="footer">
+    <p>© 2026 ScreenMasala. All Rights Reserved.</p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
