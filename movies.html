@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies - ScreenMasala</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <a href="index.html" class="logo">
+        <img src="assets/images/logo.png" alt="ScreenMasala">
+    </a>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="movies.html" class="active">Movies</a>
+        <a href="tvshows.html">TV Shows</a>
+        <a href="search.html">Search</a>
+        <a href="watchlist.html">♡</a>
+        <a href="profile.html" title="Profile" aria-label="Profile">👤</a>
+        <a href="login.html" class="login-button" id="loginButton">Login</a>
+    </nav>
+</header>
+
+<main>
+
+    <section class="page-header">
+        <p>EXPLORE</p>
+        <h1>Movies</h1>
+        <span>Discover movies worth watching.</span>
+    </section>
+
+    <section class="content-section">
+        <div class="section-title">
+            <h2 id="catalogTitle">Popular Movies</h2>
+        </div>
+
+        <div class="genre-filters" id="genreFilters" aria-label="Filter movies by genre">
+            <button class="genre-button active" data-genre="all" type="button">All</button>
+        </div>
+
+        <div class="movie-row" id="moviesRow"></div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <p>© 2026 ScreenMasala. All Rights Reserved.</p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
