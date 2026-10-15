@@ -1,0 +1,22 @@
+# Secrets - never commit these
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# macOS junk
+__MACOSX/
+.DS_Store
+._*
+
+# Generated documentation
+Complete_Project_Blueprint.pdf
+
+# Editors
+.vscode/
+.idea/
